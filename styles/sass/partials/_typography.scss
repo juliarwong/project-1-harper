@@ -9,3 +9,20 @@
     src: url(../fonts/Cabin);
     font-weight: normal;
 }
+
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $bodyFont;
+    font-size: 1rem;
+    color: $black;
+}
+
+h1, h2, h3, h4 {
+    font-family: $headingFont;
+    font-weight: bold;
+    color: $black;
+    margin: 0;
+}
