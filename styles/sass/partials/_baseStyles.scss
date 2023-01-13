@@ -1,0 +1,16 @@
+@import "./variables";
+
+.wrapper {
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+button {
+    color: $black;
+    background-color: $accent;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 1px;
+    // padding: ;
+}

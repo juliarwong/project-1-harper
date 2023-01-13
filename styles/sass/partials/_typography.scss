@@ -1,3 +1,5 @@
+@import "./variables";
+
 @font-face {
     font-family: "Oswald";
     src: url(../fonts/Oswald);
@@ -17,6 +19,8 @@ html {
 body {
     font-family: $bodyFont;
     font-size: 1rem;
+    line-height: 32px;
+    letter-spacing: 0px;
     color: $black;
 }
 
@@ -24,5 +28,36 @@ h1, h2, h3, h4 {
     font-family: $headingFont;
     font-weight: bold;
     color: $black;
+    letter-spacing: 1px;
     margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 92px;
+}
+
+h2 {
+    font-size: 2.1rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+ul, li, a, input {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

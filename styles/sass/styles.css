@@ -219,4 +219,78 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Cabin";
+  src: url(../fonts/Cabin);
+  font-weight: normal;
+}
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Cabin";
+  font-size: 1rem;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #171717;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Oswald";
+  font-weight: bold;
+  color: #171717;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 92px;
+}
+
+h2 {
+  font-size: 2.1rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+button {
+  color: #171717;
+  background-color: #f38d8d;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=styles.css.map */
