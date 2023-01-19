@@ -1,0 +1,85 @@
+.whosHarper {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    // width: 40%;
+}
+
+.spacer {
+    min-height: 20vh;
+    img {
+        background-size: cover;
+    }
+}
+
+.categories {
+    min-height: 80vh;
+    padding-top: 60px;
+    background-color: $whiteShade;
+    // display: flex;
+    img {
+        width: 3%;
+        border: 5px solid $lightBlue;
+        border-radius: 100%;
+    }
+
+    ul.category {
+        display: flex;
+        // flex-wrap: wrap;
+        // width: (90% / 2);
+    }
+}
+
+.blog {
+    margin-bottom: 40px;
+}
+
+.blogOne {
+    display: flex;
+    .blogOneContent {
+        margin: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.blogTwo {
+    display: flex;
+    .blogTwoContent {
+        margin: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.journey {
+    min-height: 70vh;
+    background: $whiteShade;
+    .journeyFlex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        margin-left: 50px;
+        .journeyContent {
+            margin-left: 80px;
+        }
+    }
+}
+
+.imgGrid {
+    min-height: 70vh;
+    padding: 80px 80px;
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        li {
+            img {
+                max-width: 95%;
+            }
+        }
+    }
+}

@@ -1,3 +1,20 @@
 .navBar {
-    display: flex;
+    background-color: $lightBlue;
+
+    ul {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 20px 0;
+        
+        a {
+            text-decoration: none;
+            font-family: $headingFont;
+        }
+
+        li {
+            font-family: $headingFont;
+        }
+    }
 }
