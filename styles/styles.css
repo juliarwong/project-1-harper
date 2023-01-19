@@ -460,3 +460,13 @@ header .headerContent {
 .imgGrid ul li img {
   max-width: 95%;
 }
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+footer p {
+  margin: 0;
+  padding: 10px;
+}
