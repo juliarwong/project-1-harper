@@ -2,13 +2,14 @@
 
 @font-face {
     font-family: "Oswald";
-    src: url(../fonts/Oswald);
-    font-weight:bold;
+    src: url(../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
+    font-weight: bold;
 }
 
 @font-face {
     font-family: "Cabin";
-    src: url(../fonts/Cabin);
+    src: url(../assets/fonts/Cabin/Cabin-VariableFont_wdth\,wght.ttf),
+        url(../assets/fonts/Cabin/Cabin-Italic-VariableFont_wdth\,wght.ttf);
     font-weight: normal;
 }
 

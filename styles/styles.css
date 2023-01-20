@@ -228,12 +228,12 @@ html {
 
 @font-face {
   font-family: "Oswald";
-  src: url(../fonts/Oswald);
+  src: url(../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf);
   font-weight: bold;
 }
 @font-face {
   font-family: "Cabin";
-  src: url(../fonts/Cabin);
+  src: url(../assets/fonts/Cabin/Cabin-VariableFont_wdth\,wght.ttf), url(../assets/fonts/Cabin/Cabin-Italic-VariableFont_wdth\,wght.ttf);
   font-weight: normal;
 }
 html {
@@ -324,6 +324,10 @@ header .headerRectangle {
 header .headerContent {
   width: 60%;
   margin: 0 auto;
+}
+header .contactHeader {
+  width: 100%;
+  background-size: cover;
 }
 
 .navBar {
@@ -459,6 +463,23 @@ header .headerContent {
 }
 .imgGrid ul li img {
   max-width: 95%;
+}
+
+.contactMain {
+  background-color: #f6f6f6;
+}
+
+ul.social {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+ul.social img {
+  width: 20px;
 }
 
 footer {
