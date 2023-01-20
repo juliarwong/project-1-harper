@@ -2,15 +2,17 @@
     min-height: 50vh;
     display: flex;
     align-items: center;
-    margin-left: 600px;
-    // width: 40%;
+    margin-left: 800px;
+    p {
+        padding: 20px 0;
+    }
 }
 
 .spacer {
-    min-height: 20vh;
-    img {
-        background-size: cover;
-    }
+    min-height: 50vh;
+    background-image: url(../assets/home-image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .categories {

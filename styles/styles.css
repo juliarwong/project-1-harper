@@ -283,7 +283,9 @@ ul {
 }
 
 a {
+  font-family: "Oswald";
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .wrapper {
@@ -292,12 +294,13 @@ a {
   margin: 0 auto;
 }
 
-button {
+.button {
   color: #171717;
   background-color: #f38d8d;
   text-align: center;
   line-height: 32px;
   letter-spacing: 1px;
+  padding: 10px 40px;
 }
 
 header {
@@ -351,9 +354,19 @@ header .headerContent .logoHero {
 .navBar ul li {
   font-family: "Oswald";
 }
+.navBar ul li a[href="#logo"] {
+  font-size: 2.1rem;
+}
 .navBar ul li a {
   text-decoration: none;
   font-family: "Oswald";
+  color: black;
+  margin: 0 30px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+.navBar ul li a:hover {
+  color: white;
 }
 
 .whosHarper {
@@ -364,14 +377,17 @@ header .headerContent .logoHero {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 600px;
+  margin-left: 800px;
+}
+.whosHarper p {
+  padding: 20px 0;
 }
 
 .spacer {
-  min-height: 20vh;
-}
-.spacer img {
+  min-height: 50vh;
+  background-image: url(../assets/home-image-2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .categories {

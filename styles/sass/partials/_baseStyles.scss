@@ -6,11 +6,11 @@
     margin: 0 auto;
 }
 
-button {
+.button {
     color: $black;
     background-color: $accent;
     text-align: center;
     line-height: 32px;
     letter-spacing: 1px;
-    // padding: ;
+    padding: 10px 40px;
 }
