@@ -304,13 +304,19 @@ a {
 }
 
 header {
+  height: 80vh;
   background-color: #b9dde7;
   margin-bottom: 10px;
+  position: relative;
 }
 header .headerFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+header .headerFlex img {
+  margin-left: 120px;
+  margin-top: 40px;
 }
 header .headerContent {
   margin-left: 80px;
@@ -330,7 +336,7 @@ header .headerContent .contentContainer {
 header .headerContent .contentContainer img {
   width: 35%;
   position: absolute;
-  top: -64px;
+  top: -102px;
   right: -45px;
 }
 header .headerContent .logoHero {
@@ -563,6 +569,7 @@ footer {
 footer p {
   margin: 0;
   padding: 10px;
+  font-size: 0.8rem;
 }
 
 .contactMain {
@@ -610,7 +617,7 @@ footer p {
       flex-wrap: nowrap;
 }
 
-.contactForm {
+.contactForm, .blogForm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -619,34 +626,37 @@ footer p {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.contactForm input, .contactForm textarea {
+.contactForm input, .contactForm textarea, .blogForm input, .blogForm textarea {
   border: none;
   padding: 20px;
   margin-bottom: 20px;
   color: black;
   font-family: "Cabin";
 }
-.contactForm input::-webkit-input-placeholder, .contactForm textarea::-webkit-input-placeholder {
+.contactForm input::-webkit-input-placeholder, .contactForm textarea::-webkit-input-placeholder, .blogForm input::-webkit-input-placeholder, .blogForm textarea::-webkit-input-placeholder {
   font-size: 0.8rem;
 }
-.contactForm input::-moz-placeholder, .contactForm textarea::-moz-placeholder {
+.contactForm input::-moz-placeholder, .contactForm textarea::-moz-placeholder, .blogForm input::-moz-placeholder, .blogForm textarea::-moz-placeholder {
   font-size: 0.8rem;
 }
-.contactForm input:-ms-input-placeholder, .contactForm textarea:-ms-input-placeholder {
+.contactForm input:-ms-input-placeholder, .contactForm textarea:-ms-input-placeholder, .blogForm input:-ms-input-placeholder, .blogForm textarea:-ms-input-placeholder {
   font-size: 0.8rem;
 }
-.contactForm input::-ms-input-placeholder, .contactForm textarea::-ms-input-placeholder {
+.contactForm input::-ms-input-placeholder, .contactForm textarea::-ms-input-placeholder, .blogForm input::-ms-input-placeholder, .blogForm textarea::-ms-input-placeholder {
   font-size: 0.8rem;
 }
-.contactForm input::placeholder, .contactForm textarea::placeholder {
+.contactForm input::placeholder, .contactForm textarea::placeholder, .blogForm input::placeholder, .blogForm textarea::placeholder {
   font-size: 0.8rem;
 }
-.contactForm button {
+.contactForm button, .blogForm button {
   border: none;
   color: black;
   background-color: #f38d8d;
   padding: 10px 0;
   font-family: "Oswald";
+}
+.contactForm .blogForm, .blogForm .blogForm {
+  padding: 30px 0 80px 0;
 }
 
 .blogMain {
@@ -680,4 +690,30 @@ footer p {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.commentOne, .commentTwo {
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.commentOne p, .commentTwo p {
+  font-size: 0.8rem;
+}
+
+.commentFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.commentTwo {
+  border-bottom: 5px solid #227284;
 }

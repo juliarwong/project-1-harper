@@ -32,3 +32,27 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+//NEED TO ADJUST COMMENT BOXES - FLEX?? WITH FORM
+.commentOne, .commentTwo {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    // max-width: 60%;
+    display: flex;
+    p {
+        font-size: 0.8rem;
+    }
+    // img {
+    //     // min-width: 10%;
+    // }
+}
+
+.commentFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentTwo {
+    border-bottom: 5px solid $duskBlue;
+}

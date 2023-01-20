@@ -1,4 +1,4 @@
-.contactForm {
+.contactForm, .blogForm {
     display: flex;
     flex-direction: column;
     // width: 40%;
@@ -26,4 +26,9 @@
     // .userInfo {
     //     display: flex;
     // }
+
+    //blog form
+    .blogForm {
+        padding: 30px 0 80px 0;
+    }
 }

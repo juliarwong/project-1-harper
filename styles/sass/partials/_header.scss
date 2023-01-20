@@ -1,9 +1,15 @@
 header {
+    height: 80vh;
     background-color: $lightBlue;
     margin-bottom: 10px;
+    position: relative;
 
     .headerFlex {
         display: flex;
+        img {
+            margin-left: 120px;
+            margin-top: 40px;
+        }
     }
 
     .headerContent {
@@ -17,7 +23,7 @@ header {
             img {
                 width: 35%;
                 position: absolute;
-                top: -64px;
+                top: -102px;
                 right: -45px;
             }
             // width: 90%;
