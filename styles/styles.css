@@ -337,6 +337,18 @@ header .headerContent .logoHero {
   font-size: 6rem;
 }
 
+.contactHeader {
+  height: 40vh;
+  background-image: url(../assets/contact-image-1.jpg);
+  margin: 0;
+  position: relative;
+}
+
+.contactMain h1 {
+  position: absolute;
+  top: 323px;
+}
+
 .navBar {
   background-color: #b9dde7;
 }
@@ -530,23 +542,6 @@ a.blogButton {
   max-width: 90%;
 }
 
-.contactMain {
-  background-color: #f6f6f6;
-}
-
-ul.social {
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-ul.social img {
-  width: 20px;
-}
-
 footer {
   background-color: black;
   text-align: center;
@@ -555,4 +550,35 @@ footer {
 footer p {
   margin: 0;
   padding: 10px;
+}
+
+.contactMain {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+}
+
+ul.social {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+ul.social li img {
+  width: 20px;
+  color: #227284;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contactInfoDetails h4 {
+  font-size: 1rem;
+  padding: 10px 0;
+}
+.contactInfoDetails p {
+  margin: 0;
+  font-size: 0.9rem;
 }

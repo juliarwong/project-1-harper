@@ -1,0 +1,30 @@
+.contactMain {
+    background-color: $whiteShade;
+    padding-top: 80px;
+}
+
+ul.social {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+        img {
+            width: 20px;
+            color: $duskBlue;
+            align-items: flex-start;
+        }
+    }
+
+}
+
+.contactInfoDetails {
+    h4 {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    p {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+}
