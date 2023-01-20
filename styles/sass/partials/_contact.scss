@@ -1,22 +1,27 @@
 .contactMain {
     background-color: $whiteShade;
     padding-top: 80px;
-}
-
-ul.social {
-    width: 20%;
-    display: flex;
-    justify-content: space-evenly;
-
-    li {
-        img {
-            width: 20px;
-            color: $duskBlue;
-            align-items: flex-start;
+    .contactBox {
+        max-width: 30%;
+        background-color: white;
+        padding: 30px;
+        ul.social {
+            // width: 30%;
+            display: flex;
+            //need to get icons to the left
+            justify-content: space-evenly;        
+            li {
+                img {
+                    width: 20px;
+                    color: $duskBlue;
+                    align-items: flex-start;
+                }
+            }
+        
         }
     }
-
 }
+
 
 .contactInfoDetails {
     h4 {

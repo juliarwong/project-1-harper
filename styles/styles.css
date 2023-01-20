@@ -556,9 +556,12 @@ footer p {
   background-color: #f6f6f6;
   padding-top: 80px;
 }
-
-ul.social {
-  width: 20%;
+.contactMain .contactBox {
+  max-width: 30%;
+  background-color: white;
+  padding: 30px;
+}
+.contactMain .contactBox ul.social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,7 +569,7 @@ ul.social {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-ul.social li img {
+.contactMain .contactBox ul.social li img {
   width: 20px;
   color: #227284;
   -webkit-box-align: start;
