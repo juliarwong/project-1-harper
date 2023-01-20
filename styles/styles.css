@@ -392,22 +392,51 @@ header .headerContent .logoHero {
 
 .categories {
   min-height: 80vh;
-  padding-top: 60px;
+  padding: 60px 0;
   background-color: #f6f6f6;
 }
-.categories img {
-  width: 3%;
-  border: 5px solid #b9dde7;
-  border-radius: 100%;
+.categories .itemOne, .categories .itemTwo, .categories .itemThree, .categories .itemFour {
+  padding: 20px;
+  margin-left: 30px;
 }
-.categories ul.category {
+.categories .rowOne, .categories .rowTwo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+.categories .rowOne img, .categories .rowTwo img {
+  width: 10%;
+  background-color: #b9dde7;
+  padding: 20px;
+  border-radius: 50%;
+}
+.categories .rowOne .iconPhoto, .categories .rowOne .iconUser, .categories .rowOne .iconBlog, .categories .rowOne .iconPhone, .categories .rowTwo .iconPhoto, .categories .rowTwo .iconUser, .categories .rowTwo .iconBlog, .categories .rowTwo .iconPhone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.categories .rowOne .iconPhoto h3, .categories .rowOne .iconUser h3, .categories .rowOne .iconBlog h3, .categories .rowOne .iconPhone h3, .categories .rowTwo .iconPhoto h3, .categories .rowTwo .iconUser h3, .categories .rowTwo .iconBlog h3, .categories .rowTwo .iconPhone h3 {
+  margin-left: 20px;
+}
+.categories p {
+  font-family: "Cabin";
+  color: black;
+}
 
 .blog {
   margin-bottom: 40px;
+}
+
+a.blogButton {
+  color: #171717;
+  background-color: #f38d8d;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
+  padding: 10px 40px;
 }
 
 .blogOne {
@@ -449,8 +478,9 @@ header .headerContent .logoHero {
 }
 
 .journey {
-  min-height: 70vh;
+  min-height: 0vh;
   background: #f6f6f6;
+  padding-bottom: 100px;
 }
 .journey .journeyFlex {
   display: -webkit-box;
@@ -468,10 +498,15 @@ header .headerContent .logoHero {
 .journey .journeyFlex .journeyContent {
   margin-left: 80px;
 }
+.journey .journeyFlex .journeyContent p {
+  padding: 20px 0;
+}
 
 .imgGrid {
-  min-height: 70vh;
-  padding: 80px 80px;
+  min-height: 60vh;
+  padding-top: 90px;
+  width: 60%;
+  margin: 0 auto;
 }
 .imgGrid ul {
   display: -webkit-box;
@@ -482,7 +517,7 @@ header .headerContent .logoHero {
           justify-content: space-evenly;
 }
 .imgGrid ul li img {
-  max-width: 95%;
+  max-width: 90%;
 }
 
 .contactMain {
