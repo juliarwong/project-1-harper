@@ -7,14 +7,13 @@
         justify-content: space-between;
         margin: 0 auto;
         padding: 20px 0;
-        
-        a {
-            text-decoration: none;
-            font-family: $headingFont;
-        }
 
         li {
             font-family: $headingFont;
+            a {
+                text-decoration: none;
+                font-family: $headingFont;
+            }
         }
     }
 }

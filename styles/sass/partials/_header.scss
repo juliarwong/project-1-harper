@@ -1,31 +1,33 @@
 header {
     background-color: $lightBlue;
     margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
 
-    .headerImgContainer {
-        width: 30%;
-        padding: 20px 0px 0px 120px;
-    }
-
-    .headerRectangle {
-        height: 100px;
-        width: 50px;
-        background-color: white;
+    .headerFlex {
+        display: flex;
     }
 
     .headerContent {
-        width: 60%;
-        margin: 0 auto;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contentContainer {
+            position: relative;
+            img {
+                width: 35%;
+                position: absolute;
+                top: -64px;
+                right: -45px;
+            }
+            // width: 90%;
+        }
+        .logoHero {
+            font-size: 6rem;
+        }
     }
 
 
 //Contact header
-.contactHeader {
-        width: 100%;
-        background-size: cover;
-    
-}
+
 }
