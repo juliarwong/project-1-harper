@@ -1,0 +1,29 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    // width: 40%;
+
+    input, textarea {
+        border: none;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: black;
+        font-family: $bodyFont;
+
+        &::placeholder{
+            font-size: 0.8rem;
+        }
+    }
+
+    button {
+        border: none;
+        color: black;
+        background-color: $accent;
+        padding: 10px 0;
+        font-family: $headingFont;
+    }
+
+    // .userInfo {
+    //     display: flex;
+    // }
+}

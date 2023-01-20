@@ -1,12 +1,11 @@
 .contactMain {
     background-color: $whiteShade;
-    padding-top: 80px;
+    padding: 80px 0;
     .contactBox {
-        max-width: 30%;
         background-color: white;
         padding: 30px;
         ul.social {
-            // width: 30%;
+            // width: 30%
             display: flex;
             //need to get icons to the left
             justify-content: space-evenly;        
@@ -22,6 +21,10 @@
     }
 }
 
+.contactInfo {
+    width: 40%;
+}
+
 
 .contactInfoDetails {
     h4 {
@@ -32,4 +35,9 @@
         margin: 0;
         font-size: 0.9rem;
     }
+}
+
+.contactFlex {
+    display: flex;
+    flex-wrap: nowrap;
 }
