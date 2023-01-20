@@ -42,3 +42,18 @@ header {
         top: 323px;
     }
 }
+
+//blog header
+.blogHeader {
+    height: 50vh;
+    margin-bottom: 0;
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        bottom: -36px;
+        left: 46px;
+    }
+}

@@ -349,6 +349,19 @@ header .headerContent .logoHero {
   top: 323px;
 }
 
+.blogHeader {
+  height: 50vh;
+  margin-bottom: 0;
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
+  position: relative;
+}
+.blogHeader h1 {
+  position: absolute;
+  bottom: -36px;
+  left: 46px;
+}
+
 .navBar {
   background-color: #b9dde7;
 }
@@ -634,4 +647,37 @@ footer p {
   background-color: #f38d8d;
   padding: 10px 0;
   font-family: "Oswald";
+}
+
+.blogMain {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+}
+
+.asideBlog {
+  padding: 30px;
+  background-color: white;
+  max-width: 30%;
+}
+.asideBlog h5 {
+  font-family: "Oswald";
+}
+
+.blogPost {
+  background-color: white;
+  padding: 30px;
+  max-width: 60%;
+  border-bottom: 5px solid #227284;
+}
+.blogPost h5 {
+  font-family: "Oswald";
+}
+
+.blogFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
