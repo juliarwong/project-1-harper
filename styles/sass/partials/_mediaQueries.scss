@@ -1,0 +1,104 @@
+@media (max-width: 1000px) {
+    header {
+        .headerImgContainer {
+            img {
+                height: 100vh;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    header {
+        .headerFlex {
+            display: flex;
+            flex-direction: column;
+            
+            img {
+                max-width: 300px;
+                align-self: center;
+                margin: 0 auto;
+            }
+        }
+
+        .headerContent {
+            .logoHero {
+                font-size: 3rem;
+                display: flex;
+                text-align: center;
+                margin-right: 70px;
+                padding-top: 50px;
+            }
+            .contentContainer {
+                position: relative;
+
+                img {
+                    width: 35%;
+                    position: absolute;
+                    top: 25px;
+                    right: 35px;
+                }
+            }
+        }
+    }
+
+    .whosHarper {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .categories {
+        .rowOne,.rowTwo {
+            img {
+                width: 60px;
+            }
+        }
+    }
+
+    .blogOne {
+        display: flex;
+        flex-direction: column;
+        .blogOneImg {
+            align-self: center;
+        }
+        .blogOneContent {
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .blogTwo {
+        display: flex;
+        flex-direction: column;
+        .blogTwoImg {
+            align-self: center;
+        }
+        .blogTwoContent {
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .journeyContent {
+        h2 {
+            line-height: 42px;
+        }
+    }
+
+    .imgGrid {
+        ul {
+            display: flex;
+            flex-direction: column;
+            border: none;
+            padding: 20px 0;
+            li {
+                margin: 0 auto;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
