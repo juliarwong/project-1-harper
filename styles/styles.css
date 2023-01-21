@@ -824,4 +824,42 @@ footer p {
   .imgGrid ul li img {
     max-width: 100%;
   }
+  .blogFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogFlex .asideBlog {
+    max-width: 100%;
+  }
+  .blogFlex .blogDetails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .blogFlex .blogDetails .blogAbout {
+    margin-left: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blogPost {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .comments .commentOne, .comments .commentTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .comments .commentOne img, .comments .commentTwo img {
+    max-width: 100%;
+    margin-right: 20px;
+  }
 }
