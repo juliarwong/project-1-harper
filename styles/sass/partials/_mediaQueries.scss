@@ -197,4 +197,40 @@
             }
         }
     }
+
+    .blogFlex {
+        .blogDetails {
+            display: flex;
+            flex-wrap: wrap;
+            //Need to center image
+            // .blogImg {
+            // }
+            .blogAbout {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .contactHeader {
+        position: relative;
+    }
+    .contactMain {
+        h1 {
+            position: absolute;
+            top: 452px;
+        }
+    }
+
+    .contactBox {
+        width: 436.5px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contactForm {
+        .userInfo {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }

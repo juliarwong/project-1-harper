@@ -933,4 +933,35 @@ footer p {
     margin-left: 0;
     padding-top: 20px;
   }
+  .blogFlex .blogDetails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .blogFlex .blogDetails .blogAbout {
+    margin-left: 0;
+  }
+  .contactHeader {
+    position: relative;
+  }
+  .contactMain h1 {
+    position: absolute;
+    top: 452px;
+  }
+  .contactBox {
+    width: 436.5px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contactForm .userInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
