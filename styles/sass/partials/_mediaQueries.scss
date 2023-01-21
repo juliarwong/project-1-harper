@@ -132,4 +132,69 @@
             }
         }
     }
+
+    .contactInfo {
+        .contactFlex {
+            align-items: center;
+        }
+    }
+
+    .contactForm {
+        margin-top: 30px;
+        .userInfo {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .navBar {
+        ul {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .whosHarper {
+        .wrapper {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        padding: 40px 0 60px 0;
+        h2 {
+            line-height: 42px;
+        }
+        .button {
+            width: 100%;
+        }
+    }
+
+    .categories {
+
+        .rowOne,
+        .rowTwo {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 60px;
+            }
+        }
+    }
+
+    .journey {
+        .journeyFlex {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0;
+    
+            .journeyContent {
+                text-align: center;
+                margin-left: 0;
+                padding-top: 20px;
+            }
+        }
+    }
 }
