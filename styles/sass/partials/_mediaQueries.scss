@@ -123,6 +123,8 @@
     }
 
     .comments {
+        justify-content: center;
+        min-width: 100%;
         .commentOne, .commentTwo {
             display: flex;
             flex-wrap: wrap;
@@ -145,6 +147,15 @@
             display: flex;
             justify-content: space-between;
         }
+    }
+
+    .contactBox {
+        width: 100%;
+    }
+
+    .contactFlex {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -227,10 +238,9 @@
         text-align: center;
     }
 
-    .contactForm {
-        .userInfo {
+    .userInfo {
             display: flex;
             flex-direction: column;
-        }
     }
+    
 }
