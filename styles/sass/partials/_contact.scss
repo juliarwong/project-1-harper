@@ -4,6 +4,7 @@
     .contactBox {
         background-color: white;
         padding: 30px;
+        width: 300px;
         ul.social {
             // width: 30%
             display: flex;
@@ -23,6 +24,11 @@
 
 .contactInfo {
     width: 40%;
+}
+
+.contactElementFlex {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 

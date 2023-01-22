@@ -4,9 +4,14 @@
 }
 
 .asideBlog {
+    display: flex;
+    flex-direction: column;
     padding: 30px;
     background-color: white;
     max-width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 20px;
 
     h5 {
         font-family: $headingFont;
@@ -30,22 +35,34 @@
 
 .blogFlex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
-//NEED TO ADJUST COMMENT BOXES - FLEX?? WITH FORM
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
 .commentOne, .commentTwo {
     background-color: white;
     padding: 30px;
     margin-top: 20px;
-    // max-width: 60%;
+    max-width: 60%;
     display: flex;
+    .commentImgDiv {
+        width: 10%;
+    }
+    .commentTextDiv {
+        padding-left: 30px;
+        width: 90%;
+    }
     p {
         font-size: 0.8rem;
     }
-    // img {
-    //     // min-width: 10%;
-    // }
+    img {
+        width: 100%;
+    }
 }
 
 .commentFlex {

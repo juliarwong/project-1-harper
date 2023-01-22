@@ -579,6 +579,7 @@ footer p {
 .contactMain .contactBox {
   background-color: white;
   padding: 30px;
+  width: 300px;
 }
 .contactMain .contactBox ul.social {
   display: -webkit-box;
@@ -598,6 +599,14 @@ footer p {
 
 .contactInfo {
   width: 40%;
+}
+
+.contactElementFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .contactInfoDetails h4 {
@@ -665,9 +674,23 @@ footer p {
 }
 
 .asideBlog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 30px;
   background-color: white;
   max-width: 30%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 20px;
 }
 .asideBlog h5 {
   font-family: "Oswald";
@@ -687,21 +710,43 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .commentOne, .commentTwo {
   background-color: white;
   padding: 30px;
   margin-top: 20px;
+  max-width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+.commentOne .commentImgDiv, .commentTwo .commentImgDiv {
+  width: 10%;
+}
+.commentOne .commentTextDiv, .commentTwo .commentTextDiv {
+  padding-left: 30px;
+  width: 90%;
+}
 .commentOne p, .commentTwo p {
   font-size: 0.8rem;
+}
+.commentOne img, .commentTwo img {
+  width: 100%;
 }
 
 .commentFlex {
