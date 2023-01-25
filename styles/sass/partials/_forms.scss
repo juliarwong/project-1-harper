@@ -43,8 +43,9 @@
 }
 
 .blogForm {
-    display: flex;
-    justify-content: flex-end;
-    // max-width: 600px;
     margin: 20px 0;
+    .blogFormDiv {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
