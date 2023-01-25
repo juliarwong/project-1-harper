@@ -704,7 +704,6 @@ footer p {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin: 20px 0;
-  width: 80%;
 }
 
 .blogMain {
@@ -834,9 +833,13 @@ footer p {
         -ms-flex-pack: center;
             justify-content: center;
     margin-left: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   header .headerFlex .homeHeaderImg img {
     width: 50%;
+    -webkit-box-shadow: 15px 15px 0px 0px white;
+            box-shadow: 15px 15px 0px 0px white;
   }
   header .headerContent .logoHero {
     font-size: 3rem;
@@ -849,6 +852,7 @@ footer p {
   }
   header .headerContent .contentContainer {
     position: relative;
+    margin-top: 20px;
   }
   header .headerContent .contentContainer img {
     width: 35%;
@@ -1118,5 +1122,18 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+@media (max-width: 390px) {
+  .whosHarper .button {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .journeyContent h2 {
+    margin-top: 30px;
+  }
+  .contactMain .contactBox {
+    margin-top: 80px;
   }
 }
