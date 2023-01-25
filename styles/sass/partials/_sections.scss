@@ -71,7 +71,7 @@ a.blogButton {
 .blogOne {
     display: flex;
     img {
-        
+        box-shadow: -100px 20px 0px 0px $greyBlue;
     }
     .blogOneContent {
         margin: 80px;
@@ -84,6 +84,9 @@ a.blogButton {
 
 .blogTwo {
     display: flex;
+    img {
+        box-shadow: 100px 20px 0px 0px $lightBlue;
+    }
     .blogTwoContent {
         margin: 80px;
         display: flex;
@@ -103,6 +106,10 @@ a.blogButton {
         align-items: center;
         padding-top: 100px;
         margin-left: 50px;
+        .headshot {
+            box-shadow: 18px 18px 0px 0px $duskBlue;
+            margin: 0;
+        }
         .journeyContent {
             margin-left: 80px;
             p {

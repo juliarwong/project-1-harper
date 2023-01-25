@@ -317,8 +317,11 @@ header .headerFlex {
 header .headerFlex .homeHeaderImg {
   margin-left: 120px;
   margin-top: 40px;
+  -webkit-box-shadow: 15px 20px 0px 0px white;
+          box-shadow: 15px 20px 0px 0px white;
 }
-header .headerContent {
+
+.headerContent {
   margin-left: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,16 +333,16 @@ header .headerContent {
       -ms-flex-pack: center;
           justify-content: center;
 }
-header .headerContent .contentContainer {
+.headerContent .contentContainer {
   position: relative;
 }
-header .headerContent .contentContainer img {
+.headerContent .contentContainer img {
   width: 35%;
   position: absolute;
   top: -63px;
   right: -45px;
 }
-header .headerContent .logoHero {
+.headerContent .logoHero {
   font-size: 6rem;
 }
 
@@ -479,6 +482,10 @@ a.blogButton {
   display: -ms-flexbox;
   display: flex;
 }
+.blogOne img {
+  -webkit-box-shadow: -100px 20px 0px 0px #68b0c1;
+          box-shadow: -100px 20px 0px 0px #68b0c1;
+}
 .blogOne .blogOneContent {
   margin: 80px;
   display: -webkit-box;
@@ -500,6 +507,10 @@ a.blogButton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.blogTwo img {
+  -webkit-box-shadow: 100px 20px 0px 0px #b9dde7;
+          box-shadow: 100px 20px 0px 0px #b9dde7;
 }
 .blogTwo .blogTwoContent {
   margin: 80px;
@@ -535,6 +546,11 @@ a.blogButton {
           align-items: center;
   padding-top: 100px;
   margin-left: 50px;
+}
+.journey .journeyFlex .headshot {
+  -webkit-box-shadow: 18px 18px 0px 0px #227284;
+          box-shadow: 18px 18px 0px 0px #227284;
+  margin: 0;
 }
 .journey .journeyFlex .journeyContent {
   margin-left: 80px;
