@@ -1066,7 +1066,7 @@ footer p {
     width: 100%;
   }
   .categories .rowOne,
-.categories .rowTwo {
+  .categories .rowTwo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1076,7 +1076,7 @@ footer p {
             flex-direction: column;
   }
   .categories .rowOne img,
-.categories .rowTwo img {
+  .categories .rowTwo img {
     width: 60px;
   }
   .journey .journeyFlex {
